@@ -1,0 +1,9 @@
+---
+recordings:
+- binary: sleep 10 && echo sup
+  stdin: 
+  status: 0
+  stdout: 'sup
+
+'
+  stderr: ''

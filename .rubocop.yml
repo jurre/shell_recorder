@@ -1,0 +1,15 @@
+require: rubocop-rspec
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+AllCops:
+  TargetRubyVersion: 2.6
+  NewCops: enable
+
+Metrics/BlockLength:
+  Exclude:
+    - "spec/**/*.rb"
+
+RSpec/ExampleLength:
+  Max: 10
